@@ -1,0 +1,80 @@
+*{
+    font-family: Fira Sans Condensed;
+    font-size: 1.15rem;
+    font-weight: 400;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.hello{
+   width: 100%;
+   height: 100vh;
+   background-image: url(overlay-bg-index.webp);
+   background-size: cover;
+   background-attachment:fixed;
+   box-sizing: border-box;
+   
+}
+
+
+.texty{
+
+    background-image: linear-gradient(38deg, rgba(154, 118, 84, 0.5), rgba(0, 0, 0, 0.5));
+    height: 100vh;
+    
+}
+
+.about{
+    width: 100%;
+   height: 100vh;
+    background-image: url(intro-bg.webp);
+    background-size: cover;
+    background-attachment:fixed;
+    box-sizing: border-box;
+    filter: sepia(30%);
+
+}
+
+
+.dis{
+    text-align: center;
+}
+
+.portf{
+    text-align: center;
+}
+.portfolio{
+    background-color: antiquewhite;
+}
+
+.scale:hover{
+    transform: scale(1.2);
+    transition: 1s;
+   
+}
+
+.work-box{
+    overflow: hidden;
+    
+}
+
+.pricelist{
+    background-color: ;
+}
+
+li{
+    text-align: center;
+    list-style-type: none;
+}
+
+.footer{
+    width: 100%;
+    height: 50vh;
+    background-image: url(overlay-bg-footer.webp);
+    background-size: cover;
+}
+
+.logo-f{
+    text-align: center;
+    border-radius: 50%;
+}
